@@ -14,6 +14,12 @@ Filial (Subsidiary):
 - CNPJ: string
 - Address: string
 
+## Dicas:
+
+- Esse é o `index` de `subsidiaries`
+- Garanta que são exibidos todos cadastrados e que é exibida uma mensagem caso não exista nenhum cadastrado
+- Você pode, opcionalmente, fazer o teste navegar até o `show` de uma `subsidiary`.
+
 # [Admin] Cadastrar uma filial
 
 Eu, usuário administrador,
@@ -25,6 +31,11 @@ Filial (Subsidiary):
 - Name: string
 - CNPJ: string
 - Address: string
+
+## Dica
+
+- Nesse teste você ainda não precisa fazer as validações
+- Para testar os 3 campos é importanta preenchar todos durante o teste com o método `fill_in` e também garantir que os 3 são exibidos em seguida com `expect(page).to have_content`
 
 # [Admin] Validar dados da filial
 
@@ -70,6 +81,12 @@ Categoria (CarCategory)
 - Car insurance: float
 - Third party insurance: float
 
+## Dica
+
+- Nesse teste você ainda não precisa fazer as validações
+- Para testar os 4 campos é importanta preenchar todos durante o teste com o método `fill_in` e também garantir que os 3 são exibidos em seguida com `expect(page).to have_content`
+
+
 # [User] Cadastrar um cliente
 
 Eu, usuário de uma filial, 
@@ -81,3 +98,8 @@ Cliente (Client):
 - Nome (name): string
 - CPF (document): string
 - Email (email): string
+
+## Dica
+
+- Nesse teste você ainda não precisa fazer as validações
+- Para testar os 3 campos é importanta preenchar todos durante o teste com o método `fill_in` e também garantir que os 3 são exibidos em seguida com `expect(page).to have_content`
