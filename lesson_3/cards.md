@@ -42,3 +42,18 @@ CarCategory's name: unique
 # [Admin] Finish CRUD for all resources
 
 Create Update and Destroy actions with their corresponding views for all resources created so far: Manufacurers, CarCategories, Subsidiaries and Customers.
+
+# [Admin] Vê os modelos de carro
+
+Eu, usuário administrador,
+Gostaria de acessar uma lista de todos os modelos de carro,
+Para saber quais já foram cadastrados.
+
+Modelo de Carro (CarModel): 
+
+- Nome (name): string
+- Ano (year): string
+- Fabricante (Manufacturer): object
+- Cavalos (motorization): string
+- Categoria (CarCategory): object
+- Tipo de combustível (fuel_type): string 
