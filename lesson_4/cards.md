@@ -11,7 +11,7 @@ Para saber quais já foram cadastrados.
 Modelo de Carro (CarModel): 
 
 - Nome (name): string
-- Ano (year): string
+- Ano (year): number
 - Fabricante (Manufacturer): object
 - Cavalos (motorization): string
 - Categoria (CarCategory): object
@@ -43,3 +43,26 @@ Refactor all your integration tests to use capybara's advanced features *when ne
 # Delete modals with tests
 
 Refactor your delete views and tests to have 'are you sure?' modals.
+
+# Format method for CPF & CNPJ
+
+Create a format CPF/CNPJ for Customer & Subsidiary, and integrate it with the views and form inputs
+
+# Use html `<table>` for show views
+
+# Add engine attribute to car model
+
+# Validar preços da categoria de carro
+
+Eu, um usuário da aplicação,
+Gostaria que fosse validado que os preços da diária, do seguro do carro e do seguro para terceiros sejam maiores do que zero,
+Para evitar cadastros errados na plataforma.
+
+- [x]  use href key on `expect to have link_to('Voltar', href: root_path)`
+- [x]  Create a format CPF/CNPJ for Customer & Subsidiary, and integrate it with the views and form inputs
+- [x]  Refactor cpf & cnpj validators
+- [x]  [CarCategory] Add greater_than 0 validations for daily_rate, insurance & third_party_insurance
+- [x]  Use <table> for index views
+- [x]  Correct year to integer with migration.
+- [x]  Add engine attribute to car model
+ 
